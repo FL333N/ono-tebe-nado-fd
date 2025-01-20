@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap");/*  Regular 400 Raleway */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap"); /* Bold 700 Raleway */
-<<<<<<< HEAD
-=======
 
 
 @font-face {
@@ -15,4 +13,3 @@
   src: url(Raleway-Bold.ttf) format(ttf);
   font-weight: 700;
 }
->>>>>>> 17b0e3f (update code)
