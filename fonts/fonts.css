@@ -1,15 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap");/*  Regular 400 Raleway */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap"); /* Bold 700 Raleway */
-
-
 @font-face {
-  font-family: "Raleway";
-  src: url(Raleway-Regular.ttf) format(ttf);
-  font-weight: 400;
+  font-family: Raleway;
+  src:
+    url(./Raleway-Regular.woff2) format('woff2'),
+    url(./Raleway-Regular.woff) format('woff');
+  font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "Raleway";
-  src: url(Raleway-Bold.ttf) format(ttf);
-  font-weight: 700;
+  font-family: Raleway;
+  src:
+    url(./Raleway-Bold.woff2) format('woff2'),
+    url(./Raleway-Bold.woff) format('woff');
+  font-weight: bold;
+  font-display: swap;
 }
