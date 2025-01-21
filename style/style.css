@@ -54,6 +54,7 @@
 }
 
 .text-cover {
+  display: block;
   font-weight: 700;
   font-size: 100px;
   line-height: 115px;
@@ -170,6 +171,11 @@
   font-size: 18px;
   line-height: 24.3px;
   font-style: normal;
+  height: 98px;
+}
+
+.no-margin-left {
+  margin-left: 0;
 }
 
 .underline {
@@ -182,6 +188,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 0 50px;
+  height: 180px;
 }
 
 .navbar-footer {
@@ -197,15 +204,6 @@
   grid-template-columns: repeat(3, auto);
   justify-items: end;
   list-style: none;
-}
-
-.contact-footer {
-  display: grid;
-  justify-content: center;
-  height: 98px;
-  font-size: 18px;
-  line-height: 24.3px;
-  font-style: normal;
 }
 
 .no-space {
