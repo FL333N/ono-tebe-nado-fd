@@ -19,8 +19,10 @@
 }
 
 .number,
-.email {
+.email,
+.address {
   color: #000;
+  display: block;
 }
 
 .address {
@@ -165,17 +167,13 @@
 }
 
 .contact {
-  display: grid;
-  justify-content: center;
-  margin-left: 186px;
   font-size: 18px;
   line-height: 24.3px;
   font-style: normal;
-  height: 98px;
 }
 
-.no-margin-left {
-  margin-left: 0;
+.margin-left {
+  margin-left: 186px;
 }
 
 .underline {
